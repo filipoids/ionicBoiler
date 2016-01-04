@@ -11,7 +11,7 @@ var del          = require('del');
 
 
 var scripts = [
-	dirs.src.vendor+'/ionic/js/ionic.bundle.js'
+	dirs.src.vendor+'/ionic/release/js/ionic.bundle.js'
 ];
 
 gulp.task('vendors:clean', function(next){
