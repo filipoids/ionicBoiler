@@ -28,8 +28,8 @@
         "isobar": "src/js/isobar",
         "css": "src/css",
         "images": "src/img",
-        "fonts": "src/css/assets/fonts",
-        "assets": "src/css/assets/images",
+        "fonts": "src/css/__assets/fonts",
+        "assets": "src/css/__assets/images",
         "extra": []
       },
       "public": {
@@ -56,11 +56,20 @@
     "build": "gulp build",
     "test": "gulp archive && mocha --reporter spec --timeout 5000"
   },
-  "soundtrack": {
-    "12": "lamar"
-  },
   "version": "0.1.0",
   "dependencies": {
     "ionic": "^1.7.12"
-  }
+  },
+  ,
+  "cordovaPlugins": [
+    "cordova-plugin-device",
+    "cordova-plugin-console",
+    "cordova-plugin-whitelist",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "ionic-plugin-keyboard"
+  ],
+  "cordovaPlatforms": [
+    "ios"
+  ]
 }
