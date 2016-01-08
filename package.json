@@ -60,7 +60,6 @@
   "dependencies": {
     "ionic": "^1.7.12"
   },
-  ,
   "cordovaPlugins": [
     "cordova-plugin-device",
     "cordova-plugin-console",
